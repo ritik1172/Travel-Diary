@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/travel-diary/static/css/main.701a4f05.css",
+    "main.js": "/travel-diary/static/js/main.2e57f5f2.js",
+    "index.html": "/travel-diary/index.html",
+    "main.701a4f05.css.map": "/travel-diary/static/css/main.701a4f05.css.map",
+    "main.2e57f5f2.js.map": "/travel-diary/static/js/main.2e57f5f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.701a4f05.css",
+    "static/js/main.2e57f5f2.js"
+  ]
+}

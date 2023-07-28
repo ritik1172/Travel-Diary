@@ -1,0 +1,22 @@
+/* DiaryList.css */
+
+.diary-list {
+    margin-top: 20px;
+  }
+  
+  .entry {
+    background-color: #f7e2f2;
+    border: 1px solid #a54095;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .entry h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #a226a7;
+  }
+  
+  /* Add more styles here as needed */
+  
