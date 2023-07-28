@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import DiaryForm from './components/DiaryForm';
+import DiaryList from './components/DiaryList';
 
-function App() {
+const App = () => {
+  const [entries, setEntries] = useState([]);
+
+  const addEntry = (entry) => {
+    setEntries([...entries, entry]);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Travel Diary</h1>
+      <DiaryForm addEntry={addEntry} />
+      <DiaryList entries={entries} />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,15 @@
+.entry {
+    background-color: #F7E2E2;
+    border: 1px solid #E29D9D;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .entry h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #893ed4;
+  }
+  
+  
